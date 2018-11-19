@@ -15,7 +15,7 @@
  hr {
      max-width: 50px;
      border-width: 3px;
-     border-color: rgb(165, 85, 185)
+     border-color: rgb(125, 65, 134)
  }
 
  hr.light {
@@ -99,7 +99,7 @@
 
  #mainNav {
      border-bottom: 1px solid rgba(33, 37, 41, .1);
-     background-color: rgb(187, 120, 187);
+     background-color: rgb(125, 65, 134);
      font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
      -webkit-transition: all .2s;
      transition: all .2s
@@ -108,13 +108,13 @@
  #mainNav .navbar-brand {
      font-weight: 700;
      text-transform: uppercase;
-     color: rgb(185, 82, 201);
+     color: rgb(125, 65, 134);
      font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
  }
 
  #mainNav .navbar-brand:focus,
  #mainNav .navbar-brand:hover {
-     color: rgb(185, 86, 201)
+     color: rgb(125, 65, 134)
  }
 
  #mainNav .navbar-nav>li.nav-item>a.nav-link,
@@ -127,12 +127,12 @@
 
  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
  #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
-     color: rgb(186, 89, 201)
+     color: rgb(125, 65, 134)
  }
 
  #mainNav .navbar-nav>li.nav-item>a.nav-link.active,
  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-     color: rgb(185, 87, 201) !important;
+     color: rgb(125, 65, 134) !important;
      background-color: transparent
  }
 
@@ -148,12 +148,12 @@
      }
 
      #mainNav .navbar-brand {
-         color: rgb(139, 88, 139)
+         color: rgb(125, 65, 134)
      }
 
      #mainNav .navbar-brand:focus,
      #mainNav .navbar-brand:hover {
-         color: rgb(161, 106, 161)
+         color: rgb(125, 65, 134)
      }
 
      #mainNav .navbar-nav>li.nav-item>a.nav-link {
@@ -162,12 +162,12 @@
 
      #mainNav .navbar-nav>li.nav-item>a.nav-link,
      #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
-         color: rgb(148, 86, 148)
+         color: rgb(125, 65, 134)
      }
 
      #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
      #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
-         color: rgb(179, 115, 179)
+         color: rgb(178, 144, 184)
      }
 
      #mainNav.navbar-shrink {
@@ -176,22 +176,22 @@
      }
 
      #mainNav.navbar-shrink .navbar-brand {
-         color: rgb(196, 101, 211)
+         color: rgb(125, 65, 134)
      }
 
      #mainNav.navbar-shrink .navbar-brand:focus,
      #mainNav.navbar-shrink .navbar-brand:hover {
-         color: rgb(189, 89, 204)
+         color: rgb(125, 65, 134)
      }
 
      #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
      #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
-         color: rgb(148, 77, 148)
+         color: rgb(125, 65, 134)
      }
 
      #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
      #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
-         color: rgb(150, 106, 150)
+         color: rgb(125, 65, 134)
      }
  }
 
@@ -200,8 +200,9 @@
      padding-bottom: calc(10rem - 56px);
      background-image: url(../img/header.jpg);
      background-position: center center;
-     background-size: cover;
-     background-repeat: no-repeat;
+     background-size: 100%;
+     
+     
  }
 
  header.masthead hr {
@@ -429,7 +430,7 @@ form{
     float: left;
     width: 33.33%;
     margin-top:50px;
-    border: solid 2px rgb(160, 113, 156);
+    border: solid 2px rgb(125, 65, 134);
 }
 
 /* Clear floats after the columns */
@@ -449,18 +450,7 @@ h4,h5{
 
 
 
-/* label {
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    /* font-family: serif;
-    display: block;
-}  */
 
-
-/* .section-heading {
-    color: rgb(194, 187, 187);
-    background-color: rgb(6, 20, 6)
-    
-} */
 
 
 .footer-distributed{
@@ -470,10 +460,13 @@ h4,h5{
 	width: 100%;
 	font: bold 16px sans-serif;
 	text-align: left;
-
+    
 	padding: 50px 60px;
-	margin-top: 80px;
-	overflow: hidden;
+    margin-top: 80px;
+   
+    overflow: hidden;
+    height: 10px;
+    position: fixed; bottom: 0;
 }
 
 /* Footer left */
@@ -506,7 +499,8 @@ h4,h5{
 /* Footer right */
 
 .footer-distributed .footer-right{
-	float: right;
+    float: right;
+    
 }
 
 /* The search form */
