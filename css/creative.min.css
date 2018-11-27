@@ -45,6 +45,8 @@
      background-color: whitesmoke!important;
      background-image: url(../img/header1.jpg);
      background-size: cover;
+     width: 100%;
+     height: 100;
      
      
      
@@ -196,11 +198,13 @@
  }
 
  header.masthead {
-     padding-top: 10rem;
+     padding-top: 0rem;
      padding-bottom: calc(10rem - 56px);
      background-image: url(../img/header.jpg);
      background-position: center center;
-     background-size: 100%;
+     background-size: cover;
+     min-height: 100vh;
+     min-width: 100vh;
      
      
  }
@@ -401,14 +405,14 @@ form{
     
 }
     
-.blueprints{
+.scottfam{
 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-  
-    height:600px;
+    width: 85%;
+   
+    height:400px;
 
 
 }
@@ -597,3 +601,49 @@ h4,h5{
 	}
 
 }
+
+.ahit {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: auto;
+    margin-top: -25px;
+    background: #788694;
+    
+}
+
+.mj {
+
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 35%;
+   
+    height:300px;
+}
+.column1 {
+    float: left;
+     width: 60%;
+    padding: 45px;
+    padding-top: 60px;
+    
+  } 
+
+  .column2 {
+
+    float: right;
+     width: 40%;
+    padding: 45px;
+    height: 70%;
+    padding-bottom: 300px;
+
+  }
+
+  
+  /* Clear floats after image containers */
+  /* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
