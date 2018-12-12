@@ -38,7 +38,8 @@
  h4,
  h5,
  h6 {
-     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+     
  }
 
  .bg-primary {
@@ -203,11 +204,16 @@
      background-image: url(../img/header.jpg);
      background-position: center center;
      background-size: cover;
-     min-height: 100vh;
-     min-width: 100vh;
-     
+     /* min-height: 100vh;
+     min-width: 100vh; */
+     /* max-width:100%; */
+     display: block;
+    height: auto;
+    
      
  }
+
+ 
 
  header.masthead hr {
      margin-top: 30px;
@@ -333,7 +339,9 @@
 
  .btn-primary {
      background-color: rgb(125, 65, 134);
-     border-color: rgb(165, 75, 179)
+     border-color: rgb(165, 75, 179);
+     max-width: 55%;
+     /* max width changed to help mobile site */
  }
 
  .btn-primary:active,
